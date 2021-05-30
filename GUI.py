@@ -1,4 +1,8 @@
+import sys
+sys.setrecursionlimit(100000) #设置递归深度
+
 from PySide2.QtWidgets import QApplication, QMessageBox,QPushButton,QFileDialog
+
 
 from PySide2.QtUiTools import QUiLoader
 from tools import del_file_list,run
