@@ -22,7 +22,6 @@
     - 3.“统计未使用的图片”
       - 此时会弹出RemNote的files文件夹中一共有多少张图片、RemNote中一共使用了多少张图片，以及files文件夹下一共是有多少张图片未在RemNote中使用，
       - ![](readme.assets/jcd-fwLDcDAvO-BGEZSuCSGSL65GBvjc-bYTxTeSSmrKfp1Ztc87wDRTuRKFkzr29ty7jwqgfs7u0l-0f-gz7pn3YZZg1dmS_jxlvfpBtrP7kfL167cLINOuR0RxMS2P.png)
-      - ![](readme.assets/jcd-fwLDcDAvO-BGEZSuCSGSL65GBvjc-bYTxTeSSmrKfp1Ztc87wDRTuRKFkzr29ty7jwqgfs7u0l-0f-gz7pn3YZZg1dmS_jxlvfpBtrP7kfL167cLINOuR0RxMS2P.png)
     - 4.“删除未使用的图片”
       - 确认信息无误后，执行”删除未使用的图片“即可将所有未使用到的图片和文件来删除。
 - 讨论
