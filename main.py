@@ -3,7 +3,8 @@ import json
 import os
 
 json_file = "rem.json"
-files_path = './files/'
+files_path = './1/files/'
+# files_path = './files/'
 # root = r'C:\Users\Lenovo\remnote\xxx\files'
 
 with open(json_file,'rb') as load_f:
@@ -47,13 +48,11 @@ file_not_in_Remnote= []
 for file_name_dir in file_list_dir:
     if file_name_dir not in file_list_json:
         file_not_in_Remnote.append(file_name_dir)
-
-print(len(file_list_json))
-print(len(file_list_dir))
-print(i)
-print(len(file_not_in_Remnote))
-
+        # print(file_name_dir)
+print('RemNote的files文件夹中一共有{}张图片'.format(len(file_list_dir)) )
+print('RemNote的json文件实际使用到了{}张图片'.format(len(file_list_json)))
+print('RemNote的files文件夹中一共有{}张未使用的图片'.format(len(file_not_in_Remnote)))
 
 write_list_to_txt(file_not_in_Remnote,'file_not_in_Remnote.txt')
 
-del_file_list(files_path, file_not_in_Remnote)
+# del_file_list(files_path, file_not_in_Remnote)
