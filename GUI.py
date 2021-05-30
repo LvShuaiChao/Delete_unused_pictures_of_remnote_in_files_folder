@@ -1,6 +1,6 @@
-import sys
-sys.setrecursionlimit(100000) #设置递归深度
-
+# import sys
+# sys.setrecursionlimit(100000) #设置递归深度
+import json
 from PySide2.QtWidgets import QApplication, QMessageBox,QPushButton,QFileDialog
 
 
@@ -23,7 +23,7 @@ def click_select_files():
 
 def click_statistics_unused_files():
     global  json_file, files_path,file_not_in_Remnote
-    file_not_in_Remnote = run()
+    file_not_in_Remnote = run(json_file,files_path)
 
 
 def click_delete_unuseed_files():
@@ -36,3 +36,5 @@ ui.statistics_unused_files.clicked.connect(click_statistics_unused_files)
 ui.delete_unuseed_files.clicked.connect(click_delete_unuseed_files)
 ui.show()
 app.exec_()
+
+

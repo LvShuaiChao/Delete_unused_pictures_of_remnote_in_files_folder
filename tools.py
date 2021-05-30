@@ -3,13 +3,12 @@ import json
 import os
 from tqdm import tqdm
 
-json_file = "rem.json"
-files_path = './1/files/'
+# json_file = "rem.json"
+# files_path = './1/files/'
 # files_path = './files/'
 # root = r'C:\Users\Lenovo\remnote\xxx\files'
 
-with open(json_file,'rb') as load_f:
-    load_dict = json.load(load_f)
+
 
 def write_list_to_txt(list,filename):
     f = open(filename, "w")
@@ -28,13 +27,17 @@ def del_file_list(root,file_list):
     for file_name in tqdm(file_list):
         try:
             # print(root + file_name)
-            os.remove(root + file_name)
+            os.remove(root + '/' +  file_name)
         except:
+            print('{}没有删除成功'.format(root + '/' +  file_name))
             pass
     print('完成!!')
 
 
-def run():
+def run(json_file,files_path):
+    with open(json_file, 'rb') as load_f:
+        load_dict = json.load(load_f)
+
     str = load_dict.__str__()
     p = re.compile("%LOCAL")
 
