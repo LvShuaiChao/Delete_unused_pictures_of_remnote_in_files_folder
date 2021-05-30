@@ -1,4 +1,10 @@
 - https://user-images.githubusercontent.com/35528109/120111744-bbd51280-c1a5-11eb-9482-1201a8e7c510.mp4
+
+
+https://user-images.githubusercontent.com/35528109/120112279-be386c00-c1a7-11eb-8cad-e29d800d4a93.mp4
+
+
+
 - 背景与引言
   - 众所周知，RemNote保存图像的机制为：只要粘贴图片（或者其他文件）进RemNote中，就会在其数据库文件夹files下存入一张图片，即使当用户在RemNote删除了这张图片，files文件中的这张图片依然存在，随着用户笔记数量的增多，会导致files文件夹越来越大，里面存储了大量用户永远用不到的图片，不仅仅浪费了，对服务器同步造成了很大但是不必要的压力。因此，对RemNote中files数据库文件夹进行文件清理，势在必行!
 - 材料与方法
