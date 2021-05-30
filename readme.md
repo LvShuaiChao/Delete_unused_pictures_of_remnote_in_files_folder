@@ -1,8 +1,6 @@
 https://user-images.githubusercontent.com/35528109/120111744-bbd51280-c1a5-11eb-9482-1201a8e7c510.mp4
 
 
-https://user-images.githubusercontent.com/35528109/120112279-be386c00-c1a7-11eb-8cad-e29d800d4a93.mp4
-
 
 
 - 背景与引言
